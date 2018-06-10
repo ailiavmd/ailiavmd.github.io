@@ -1,0 +1,41 @@
+/*Extra small devices (portrait phones, less than 576px)
+No media query since this is the default in Bootstrap*/
+
+/*Small devices (landscape phones, 576px and up)*/
+@media (min-width: 576px) {
+	header.top-header .container {
+		border-radius: 4px;
+	}
+	section .container {
+		border-radius: 4px;
+	}
+	.circle {
+		padding: 10px;
+		width: 100%;
+	}
+	.circle .number {
+		font-size: 3rem;
+	}
+}
+
+/*Medium devices (tablets, 768px and up)*/
+@media (min-width: 768px) {
+	.circle .number {
+		font-size: 4rem;
+	}
+	section .section-title {
+		flex-direction: row;
+	}
+}
+
+/*Large devices (desktops, 992px and up)*/
+@media (min-width: 992px) {
+	.circle .number {
+		font-size: 5rem;
+	}
+}
+
+/*Extra large devices (large desktops, 1200px and up)*/
+@media (min-width: 1200px) {
+
+}
