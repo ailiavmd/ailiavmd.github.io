@@ -1,5 +1,5 @@
 :root {
-	--red: #e74c3c;
+	--blue: #28a6a9;
 	--yellow: rgba(255, 235, 59, 0.3);
 	--dark: #3a3a3a;
 	--grey: #f9f9f9;
@@ -28,7 +28,7 @@ h2 {
 }
 
 h3 {
-	color: var(--red);
+	color: var(--blue);
 }
 
 img {
@@ -37,20 +37,20 @@ img {
 }
 
 .form-control {
-	border-color: var(--red);	
+	border-color: var(--blue);	
 }
 
 .btn-primary {
-	background: var(--red);
-	border-color: var(--red);
+	background: var(--blue);
+	border-color: var(--blue);
 	white-space: normal;
 	color: white;
 }
 
 a.btn-primary:hover, .btn-primary:hover {
 	background: white;
-	color: var(--red);
-    border-color: var(--red);
+	color: var(--blue);
+    border-color: var(--blue);
 }
 
 .social-media {
@@ -64,7 +64,7 @@ a.btn-primary:hover, .btn-primary:hover {
 .social-media li {
 	font-size: 1.3rem;
 	margin: 0 20px;
-	color: var(--red);
+	color: var(--blue);
 }
 
 
@@ -72,7 +72,7 @@ a.btn-primary:hover, .btn-primary:hover {
 
 /* top navigation */
 nav.top-navigation.navbar {
-	background: var(--red);
+	background: var(--blue);
 	color: white;
 }
 
@@ -102,7 +102,7 @@ header.top-header a.btn {
 }
 
 header.top-header a.btn:hover {
-	color: var(--red);
+	color: var(--blue);
 }
 /* header end */
 
@@ -140,18 +140,18 @@ table.resultados:hover {
 }
 
 table.resultados:hover th {
-	background: var(--red);
+	background: var(--blue);
 	color: white;
 }
 
 table.resultados:hover td.hora {
-	color: var(--red);
+	color: var(--blue);
 }
 
 table.resultados th {
 	padding: 10px;
-	border: 1px solid var(--red);
-	color: var(--red);
+	border: 1px solid var(--blue);
+	color: var(--blue);
 	border-radius: 3px;
 	background: white;
 	transition: .3s;
@@ -170,7 +170,7 @@ table.resultados td {
 }
 
 .circle {
-	border: 5px solid var(--red);
+	border: 5px solid var(--blue);
 	border-radius: 50%;
 	position: relative;
 	padding: 5px;
@@ -221,11 +221,11 @@ footer form .form-control {
 
 footer form .form-control:focus {
 	box-shadow: none;
-	border-bottom: 1px solid var(--red);
+	border-bottom: 1px solid var(--blue);
 }
 
 footer form input[type="submit"] {
-	background: var(--red);
+	background: var(--blue);
 	color: white;
 	cursor: pointer;
 }
