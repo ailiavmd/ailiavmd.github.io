@@ -16,6 +16,9 @@ No media query since this is the default in Bootstrap*/
 	.circle .number {
 		font-size: 3rem;
 	}
+	nav.top-navigation.navbar .navbar-brand {
+		width: auto;
+	}
 }
 
 /*Medium devices (tablets, 768px and up)*/
