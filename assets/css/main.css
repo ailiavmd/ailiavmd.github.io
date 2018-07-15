@@ -356,7 +356,7 @@ table.dataTable tfoot th {
 }
 
 table.dataTable thead th,
-table.dataTable thead td {
+table.dataTable thead td, .dataTables_wrapper.no-footer .dataTables_scrollBody {
 	border-color: var(--blue);
 }
 
