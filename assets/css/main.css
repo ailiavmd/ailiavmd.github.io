@@ -338,6 +338,8 @@ table.resultados td {
 
 .estadisticas img {
 	border-radius: 50%;
+	width: 50% !important;
+	margin: 0 auto;
 }
 
 #table_wrapper {
