@@ -19,6 +19,9 @@ No media query since this is the default in Bootstrap*/
 	nav.top-navigation.navbar .navbar-brand {
 		width: auto;
 	}
+	#table_wrapper {
+		margin: 0;
+	}
 }
 
 /*Medium devices (tablets, 768px and up)*/

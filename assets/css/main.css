@@ -333,8 +333,12 @@ table.resultados td {
 .dataTables_length select, .dataTables_filter input {
 	padding: 2px 10px;
 	border: 1px solid gainsboro;
-	border-radius: 4px;
-	margin-bottom: 20px;
+	padding: 0 -40px;
+}
+
+#table_wrapper {
+	margin-left: -40px;
+	margin-right: -40px;
 }
 
 table.dataTable thead th,
