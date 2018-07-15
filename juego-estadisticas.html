@@ -9,6 +9,8 @@
 		<link href="https://fonts.googleapis.com/css?family=Gudea:400,700" rel="stylesheet">
 
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/datatables.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/responsive.dataTables.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	</head>
@@ -84,25 +86,135 @@
 						</div>
 					</div>
 					<div class="col-md-3 text-center text-md-right">
-						<a class="btn btn-primary" href="juego-resultados.html">Resultados de hoy &#8594;</a>
+						<a class="btn btn-primary" href="#">Resultados de hoy &#8594;</a>
 					</div>
+				</div>
+				
+				<div class="estadisticas my-4">
+					<select class="form-control">
+						<option>Animalitos mas frecuentes</option>
+						<option>Animalitos enjaulados</option>
+						<option>Animalitos mas frecuentes del mes</option>
+					</select>
 				</div>
 
 				<hr class="my-4">
 				
-				<p>Ita sint deserunt, e pariatur quo quamquam, arbitror ex ingeniis est nulla 
-					ullamco hic cohaerescant, incididunt ne dolor, se de illum illum elit, duis 
-					pariatur id pariatur est senserit elit quo laborum domesticarum. Ab doctrina 
-					comprehenderit, ingeniis labore possumus se singulis noster ad mentitum 
-					imitarentur, non magna graviterque. Si voluptate familiaritatem, fore pariatur 
-					quamquam. Labore transferrem appellat noster appellat, cupidatat magna dolor 
-					nescius veniam, o veniam nisi ea tempor.</p>
-				
-				<div class="text-center">
-					<a href="juego-historico.html" class="btn btn-primary">Historial</a>
-					<a href="juego-estadisticas.html" class="btn btn-primary">Estadisticas</a>
+				<div class="row">
+					<div class="col-md-4">
+						<div class="ad-container text-center mb-5 my-md-0">
+							<div class="row">
+								<div class="col-6 col-md-12 text-right text-md-left mb-0 mb-md-2">
+									<img src="assets/img/ads/250x250.png">
+								</div>
+								<div class="col-6 col-md-12 text-left">
+									<img src="assets/img/ads/250x250.png">
+								</div>
+							</div>
+						</div>
+					</div>
+					
+					<div class="col-md-8">
+						<table class="display responsive w-100 my-4" id="table">
+							<thead>
+								<tr>
+									<th>Posicion</th>
+									<th>Numero</th>
+									<th>Animal</th>
+									<th>Cantidad</th>
+									<th>Dias sin salir</th>
+								</tr>
+							</thead>
+							<tbody>
+								<tr>
+									<td>1</td>
+									<td>12</td>
+									<td>Burro</td>
+									<td>95</td>
+									<td>0</td>
+								</tr>
+								<tr>
+									<td>2</td>
+									<td>21</td>
+									<td>Gato</td>
+									<td>89</td>
+									<td>3</td>
+								</tr>
+								<tr>
+									<td>Row 2 Data 1</td>
+									<td>Row 2 Data 2</td>
+									<td>Row 2 Data 3</td>
+									<td>Row 2 Data 4</td>
+									<td>Row 2 Data 4</td>
+								</tr>
+								<tr>
+									<td>Row 2 Data 1</td>
+									<td>Row 2 Data 2</td>
+									<td>Row 2 Data 3</td>
+									<td>Row 2 Data 4</td>
+									<td>Row 2 Data 4</td>
+								</tr>
+								<tr>
+									<td>Row 2 Data 1</td>
+									<td>Row 2 Data 2</td>
+									<td>Row 2 Data 3</td>
+									<td>Row 2 Data 4</td>
+									<td>Row 2 Data 4</td>
+								</tr>
+								<tr>
+									<td>Row 2 Data 1</td>
+									<td>Row 2 Data 2</td>
+									<td>Row 2 Data 3</td>
+									<td>Row 2 Data 4</td>
+									<td>Row 2 Data 4</td>
+								</tr>
+								<tr>
+									<td>Row 2 Data 1</td>
+									<td>Row 2 Data 2</td>
+									<td>Row 2 Data 3</td>
+									<td>Row 2 Data 4</td>
+									<td>Row 2 Data 4</td>
+								</tr>
+								<tr>
+									<td>Row 2 Data 1</td>
+									<td>Row 2 Data 2</td>
+									<td>Row 2 Data 3</td>
+									<td>Row 2 Data 4</td>
+									<td>Row 2 Data 4</td>
+								</tr>
+								<tr>
+									<td>Row 2 Data 1</td>
+									<td>Row 2 Data 2</td>
+									<td>Row 2 Data 3</td>
+									<td>Row 2 Data 4</td>
+									<td>Row 2 Data 4</td>
+								</tr>
+								<tr>
+									<td>Row 2 Data 1</td>
+									<td>Row 2 Data 2</td>
+									<td>Row 2 Data 3</td>
+									<td>Row 2 Data 4</td>
+									<td>Row 2 Data 4</td>
+								</tr>
+								<tr>
+									<td>Row 2 Data 1</td>
+									<td>Row 2 Data 2</td>
+									<td>Row 2 Data 3</td>
+									<td>Row 2 Data 4</td>
+									<td>Row 2 Data 4</td>
+								</tr>
+								<tr>
+									<td>Row 2 Data 1</td>
+									<td>Row 2 Data 2</td>
+									<td>Row 2 Data 3</td>
+									<td>Row 2 Data 4</td>
+									<td>Row 2 Data 4</td>
+								</tr>
+							</tbody>
+						</table>
+
+					</div>
 				</div>
-				
 			</div>
 		</section>
 		<!-- juego informacion end-->
@@ -154,9 +266,20 @@
 
 		<script src="assets/js/jquery-3.3.1.min.js"></script>
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		
+		<script src="assets/js/datatables.js"></script>
+		<script src="assets/js/dataTables.responsive.js"></script>
+		<script>
+			$(document).ready( function () {
+				$('#table').DataTable({
+
+				});
+			});
+		</script>
+		
 		<!-- Ionicons -->
 		<script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
-		
+
 		<script src="assets/js/main.js"></script>
 	</body>
 </html>
