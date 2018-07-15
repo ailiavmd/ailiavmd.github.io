@@ -10,7 +10,6 @@
 
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/datatables.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/responsive.dataTables.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 	</head>
@@ -88,7 +87,7 @@
 						</div>
 					</div>
 					<div class="col-md-3 text-center text-md-right">
-						<a class="btn btn-primary" href="#">Resultados de hoy &#8594;</a>
+						<a class="btn btn-primary" href="juego-resultados.html">Resultados de hoy &#8594;</a>
 					</div>
 				</div>
 				
@@ -124,7 +123,7 @@
 					</div>
 					
 					<div class="col-md-8">
-						<table class="display responsive w-100 my-4" id="table">
+						<table class="display w-100" id="table">
 							<thead>
 								<tr>
 									<th>Posicion</th>
@@ -277,11 +276,10 @@
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
 		
 		<script src="assets/js/datatables.js"></script>
-		<script src="assets/js/dataTables.responsive.js"></script>
 		<script>
 			$(document).ready( function () {
 				$('#table').DataTable({
-
+					scrollX: true
 				});
 			});
 		</script>

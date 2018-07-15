@@ -20,7 +20,8 @@ No media query since this is the default in Bootstrap*/
 		width: auto;
 	}
 	#table_wrapper {
-		margin: 0;
+		margin-left: 0;
+		margin-right: 0;
 	}
 }
 

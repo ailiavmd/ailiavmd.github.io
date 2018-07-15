@@ -336,15 +336,18 @@ table.resultados td {
 	padding: 0 -40px;
 }
 
-.estadisticas img {
+.semanal img {
 	border-radius: 50%;
-	width: 50% !important;
+	max-width: 70px;
 	margin: 0 auto;
 }
 
 #table_wrapper {
-	margin-left: -40px;
-	margin-right: -40px;
+	margin: 0 -40px;
+}
+
+.dataTables_scroll {
+	margin: 20px 0;
 }
 
 table.dataTable thead th,

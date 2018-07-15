@@ -11,7 +11,6 @@
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/daterangepicker.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/datatables.css">
-		<link rel="stylesheet" type="text/css" href="assets/css/responsive.dataTables.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
 		
@@ -126,7 +125,7 @@
 					</div>
 				</div>
 
-				<table id="table" class="display estadisticas responsive w-100 my-4 text-center">
+				<table id="table" class="display semanal text-center w-100">
 					<thead>
 						<tr>
 							<th>Horario</th>
@@ -300,12 +299,12 @@
 		<script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
 		
 		<script src="assets/js/datatables.js"></script>
-		<script src="assets/js/dataTables.responsive.js"></script>
 		<script>
 			$(document).ready( function () {
 				$('#table').DataTable({
-					"ordering": false,
-					"paging": false
+					ordering: false,
+					paging: false,
+					scrollX: true
 				});
 				$('#weekpicker').dateRangePicker({
 					batchMode: 'week',
