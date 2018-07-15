@@ -336,6 +336,10 @@ table.resultados td {
 	padding: 0 -40px;
 }
 
+.estadisticas img {
+	border-radius: 50%;
+}
+
 #table_wrapper {
 	margin-left: -40px;
 	margin-right: -40px;
