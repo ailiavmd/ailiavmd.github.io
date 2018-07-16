@@ -9,8 +9,17 @@
 		<link href="https://fonts.googleapis.com/css?family=Gudea:400,700" rel="stylesheet">
 
 		<link rel="stylesheet" type="text/css" href="assets/css/bootstrap.min.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/daterangepicker.css">
+		<link rel="stylesheet" type="text/css" href="assets/css/datatables.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/main.css">
 		<link rel="stylesheet" type="text/css" href="assets/css/responsive.css">
+
+		<style>
+			tr:hover {
+				background-color: #eee;
+			}
+		</style>
+
 	</head>
 	<body>
 
@@ -78,31 +87,146 @@
 				<div class="section-title row">
 					<div class="col-md-9">
 						<div class="title">
-							<h3>Nombre del juego</h3>
+							<h3>Historico de Resultados</h3>
 							<p class="text-muted">Elit qui singulis ubi velit, eiusmod firmissimum eu occaecat. Veniam ullamco 
 								eiusmod ab singulis quem commodo.</p>
 						</div>
+
 					</div>
 					<div class="col-md-3 text-center text-md-right">
-						<a class="btn btn-primary" href="juego-resultados.html">Resultados de hoy &#8594;</a>
+						<a class="btn btn-primary" href="juego-estadisticas.html">Estadisticas &#8594;</a>
 					</div>
 				</div>
 
 				<hr class="my-4">
-				
-				<p>Ita sint deserunt, e pariatur quo quamquam, arbitror ex ingeniis est nulla 
-					ullamco hic cohaerescant, incididunt ne dolor, se de illum illum elit, duis 
-					pariatur id pariatur est senserit elit quo laborum domesticarum. Ab doctrina 
-					comprehenderit, ingeniis labore possumus se singulis noster ad mentitum 
-					imitarentur, non magna graviterque. Si voluptate familiaritatem, fore pariatur 
-					quamquam. Labore transferrem appellat noster appellat, cupidatat magna dolor 
-					nescius veniam, o veniam nisi ea tempor.</p>
-				
-				<div class="text-center">
-					<a href="juego-historico.html" class="btn btn-primary">Historial</a>
-					<a href="juego-estadisticas.html" class="btn btn-primary">Estadisticas</a>
+
+				<div class="ad-container text-center my-5">
+					<img src="assets/img/ads/970x90.png">
 				</div>
-				
+
+				<div class="row  mb-5">
+					<div class="col-md-8">
+						<div class="input-group mx-auto text-center">
+							<input type="text" id="weekpicker" class="form-control">
+							<div class="input-group-append">
+								<ion-icon name="calendar"></ion-icon>
+							</div>
+						</div>
+					</div>
+					<div class="col-md-4 text-center text-md-right mt-2 mt-md-0">
+						<button type="submit" class="btn btn-primary">Mostrar Resultados</button>
+					</div>
+				</div>
+
+				<table id="table" class="display semanal text-center w-100">
+					<thead>
+						<tr>
+							<th>Horario</th>
+							<th>Lunes</th>
+							<th>Martes</th>
+							<th>Miercoles</th>
+							<th>Jueves</th>
+							<th>Viernes</th>
+							<th>Sabado</th>
+							<th>Domingo</th>
+						</tr>
+					</thead>
+					<tbody>
+						<tr>
+							<th rowspan="3">00:00</th>
+							<td>932</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+						</tr>
+						<tr>
+							<td style="display: none;"></td>
+							<td>932</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+						</tr>
+						<tr>
+							<td style="display: none;"></td>
+							<td>932</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+						</tr>
+						
+						<tr>
+							<th rowspan="3">00:00</th>
+							<td>932</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+						</tr>
+						<tr>
+							<td style="display: none;"></td>
+							<td>932</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+						</tr>
+						<tr>
+							<td style="display: none;"></td>
+							<td>932</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+						</tr>
+						
+						<tr>
+							<th rowspan="3">00:00</th>
+							<td>932</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+						</tr>
+						<tr>
+							<td style="display: none;"></td>
+							<td>932</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+						</tr>
+						<tr>
+							<td style="display: none;"></td>
+							<td>932</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+							<td>815</td>
+							<td>131</td>
+							<td>753</td>
+						</tr>
+					</tbody>
+				</table>
+
 			</div>
 		</section>
 		<!-- juego informacion end-->
@@ -154,9 +278,26 @@
 
 		<script src="assets/js/jquery-3.3.1.min.js"></script>
 		<script src="assets/js/bootstrap.bundle.min.js"></script>
+		<script src="assets/js/moment.min.js"></script>
+		<script src="assets/js/jquery.daterangepicker.min.js"></script>
 		<!-- Ionicons -->
 		<script src="https://unpkg.com/ionicons@4.2.4/dist/ionicons.js"></script>
-		
+
+		<script src="assets/js/datatables.js"></script>
+		<script>
+			$(document).ready( function () {
+				$('#table').DataTable({
+					ordering: false,
+					paging: false,
+					scrollX: true,
+				});
+				$('#weekpicker').dateRangePicker({
+					batchMode: 'week',
+					showShortcuts: false,
+				});
+			});
+		</script>
+
 		<script src="assets/js/main.js"></script>
 	</body>
 </html>
