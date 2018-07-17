@@ -329,6 +329,69 @@ table.resultados td {
 	border-top-right-radius: 4px;
 	border-bottom-right-radius: 4px;
 }
+
+.datos .card {
+	display: inline-block;
+}
+
+.datos .card img {
+	display: block;
+}
+
+.datos .card a {
+	display: block;
+}
+
+img.dato-single {
+	max-width: 150px;
+	border-radius: 4px;
+}
+
+.noticias > div:not(.ad-img) img {
+	width: 100%;
+	height: 220px;
+	object-fit: cover;
+	object-position: center;
+}
+
+.noticias h3 {
+	font-weight: normal;
+}
+
+.pagination li {
+	display: inline-block;
+	margin-bottom: 6px;
+}
+
+.page-item.active .page-link {
+	background: var(--blue);
+	border-color: var(--blue);
+}
+
+.page-link {
+	margin: 0 3px;
+	border-radius: 3px;
+}
+.page-link, .page-link:hover {
+	color: var(--blue);
+}
+
+.noticia-featured {
+	margin: -40px -40px 0 -40px;
+}
+
+.noticia-featured img {
+	object-fit: cover;
+	object-position: center;
+	height: 400px;
+	width: 100%;
+	border-bottom-left-radius: 0;
+	border-bottom-right-radius: 0;
+}
+
+.title .social-media li {
+	margin: 0 5px ;
+}
 /* content end */
 
 
