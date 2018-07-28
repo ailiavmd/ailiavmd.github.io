@@ -33,15 +33,22 @@ No media query since this is the default in Bootstrap*/
 	section .section-title {
 		flex-direction: row;
 	}
-	nav .dropdown-menu {
-		box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.54);
-	}
 }
 
 /*Large devices (desktops, 992px and up)*/
 @media (min-width: 992px) {
 	.circle .number {
 		font-size: 5rem;
+	}
+	nav .dropdown-menu {
+		box-shadow: 0px 2px 5px -1px rgba(0,0,0,0.54);
+	}
+	nav li.nav-item:hover {
+		border-bottom: 2px solid white;
+	}
+
+	li.nav-item.active {
+		border-bottom: 2px solid white;
 	}
 }
 

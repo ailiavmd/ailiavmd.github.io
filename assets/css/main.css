@@ -163,14 +163,6 @@ nav li.nav-item {
 	transition: .3px;
 }
 
-nav li.nav-item:hover {
-	border-bottom: 2px solid white;
-}
-
-li.nav-item.active {
-	border-bottom: 2px solid white;
-}
-
 nav.top-navigation.navbar a.btn {
 	color: white;
 }
