@@ -156,8 +156,19 @@ nav.top-navigation.navbar .navbar-brand {
 	width: 100%;
 }
 
-nav.top-navigation.navbar .form-inline {
-	flex-wrap: nowrap;
+nav li.nav-item {
+	margin-right: 10px;
+	padding: 5px 0;
+	border-bottom: 2px solid var(--blue);
+	transition: .3px;
+}
+
+nav li.nav-item:hover {
+	border-bottom: 2px solid white;
+}
+
+li.nav-item.active {
+	border-bottom: 2px solid white;
 }
 
 nav.top-navigation.navbar a.btn {
@@ -174,7 +185,9 @@ nav .dropdown-menu {
 	border-bottom-left-radius: 3px;
 	border-bottom-right-radius: 3px;
 	padding: 0;
-	top: 115%;
+	top: 98%;
+	padding-bottom: 10px;
+	box-shadow: none;
 }
 
 nav .dropdown-menu a {
