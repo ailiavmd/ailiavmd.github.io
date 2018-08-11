@@ -524,6 +524,13 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before
 	padding: 4px 12px;
 }
 
+#page-search {
+	width: 200px;
+	display: inline-block;
+	margin-left: 20px;
+	border-color: gainsboro;
+}
+
 /* misc end */
 
 
