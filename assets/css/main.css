@@ -531,6 +531,40 @@ table.dataTable.dtr-inline.collapsed > tbody > tr.parent > td:first-child:before
 	border-color: gainsboro;
 }
 
+table.historico2 thead th {
+	color: white;
+}
+
+table.historico2.display tbody tr:first-child th {
+	border-top: 1px solid #ddd;
+}
+
+table.historico2 thead tr {
+	background: var(--blue);
+}
+
+table.historico2.display tbody tr.odd {
+	background: #fff1d8;
+}
+
+table.historico2.display tbody td {
+	border-right: 1px solid #ddd;
+}
+
+table.historico2 thead tr:hover {
+	background: var(--blue);
+}
+
+table.historico2.display th.hora {
+	background: var(--blue);
+	color: white;
+}
+
+table.historico2 tr.border-top td {
+	/* background: blue !important; */
+	border-top: 1px solid var(--blue);
+}
+
 /* misc end */
 
 
