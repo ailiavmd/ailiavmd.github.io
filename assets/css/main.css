@@ -38,3 +38,7 @@ a {
   display: flex;
   justify-content: space-between;
 }
+
+.site-header {
+  height: 700px;
+}
