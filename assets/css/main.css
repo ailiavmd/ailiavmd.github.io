@@ -36,16 +36,16 @@ a {
 
 .top .contact-bar {
   justify-content: center;
+  padding: 10px;
 }
 
 .top .navigation {
-  display: flex;
-  justify-content: space-between;
-  background-color: #23426f;
   color: white;
 }
 
 .top .navigation > div {
+  display: flex;
+  justify-content: space-between;
   background-color: #23426f;
 }
 
