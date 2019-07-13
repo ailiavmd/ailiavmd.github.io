@@ -41,6 +41,8 @@ a {
 .top .navigation {
   display: flex;
   justify-content: space-between;
+  background-color: #23426f;
+  color: white;
 }
 
 .site-header {
