@@ -23,6 +23,10 @@ a {
   text-decoration: none;
 }
 
+.blue {
+  color: #23426f;
+}
+
 .top ul {
   list-style-type: none;
   padding: 0;
@@ -41,4 +45,15 @@ a {
 
 .site-header {
   height: 700px;
+}
+
+section {
+  padding: 80px 0;
+}
+
+section:nth-of-type(odd) {
+  background-color: #23426f;
+}
+section:nth-of-type(even) {
+  background-color: #d8d8c8;
 }
