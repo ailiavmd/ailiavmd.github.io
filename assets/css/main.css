@@ -45,6 +45,10 @@ a {
   color: white;
 }
 
+.top .navigation > div {
+  background-color: #23426f;
+}
+
 .site-header {
   height: 700px;
 }
